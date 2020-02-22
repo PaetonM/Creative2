@@ -1,0 +1,123 @@
+.footer {
+  bottom: 0;
+  width: 100%;
+  background-color: #D3D3D3;
+  text-align: center;
+  border-top: solid;
+  border-color: firebrick;
+  max-height: 70px;
+  position: fixed;
+  padding-top: 30px;
+}
+
+.navbarcolor {
+  color: #80763E;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/United_States_Declaration_of_Independence.jpg/800px-United_States_Declaration_of_Independence.jpg");
+  /*https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTsFWzarTCyqH8L4x4-pL2F38S95Pd8_lww9g_ms7GNLwH6FADw*/
+  /*height: 100%;*/
+
+  /* Center and scale the image nicely */
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  width: 100%;
+}
+
+.header {
+  border: solid 3px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  height: 45px;
+}
+
+hr {
+  width: 75%;
+  border: solid 1px;
+}
+
+.buttondiv {
+  margin: 0 auto;
+  justify-content: center;
+}
+
+button {
+  height: 50px;
+  width: 10%;
+  margin-left: 45%;
+  margin-right: 45%;
+  background-color: firebrick;
+  color: white;
+}
+#displayquote{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#quoteBox{
+  margin: 0 auto;
+  padding: 15px;
+  border: solid;
+  border-color: maroon;
+  border-radius: 20px;
+  width: 85%;
+  background-color: gray;
+  font-family: "Times New Roman", Times, serif;
+  opacity: .83;
+  text-align: center;
+}
+#authorBox{
+  display: flex;
+  justify-content: center;
+}
+#tagBox{
+  display: flex;
+  justify-content: center;
+}
+
+.topBar{
+  border-bottom: solid;
+  border-color: firebrick;
+  height: 95px;
+}
+
+#betweenHR {
+  border: solid;
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  background-color: antiquewhite;
+  justify-content: center;
+  height: 80px;
+  width: 65%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+#dummydiv {
+  height: 40%;
+}
+
+@media only screen and (min-width: 961px) { /*Desktop*/
+
+}
+
+@media only screen and (max-width: 400px) { /*Phone*/
+  dummydiv {
+    max-height: 33%;
+  }
+  betweenHR {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px;) {  /*Tablet*/
+  dummydiv {
+    max-height: 70%;
+  }
+}
